@@ -26,7 +26,7 @@
   </info>
   <macro name="author">
     <names variable="author">
-      <name delimiter-precedes-last="always" et-al-min="3" initialize-with="."/>
+      <name delimiter="precedes-last" et-al="true" et-al-min="3" initialize-with="."/>
       <label form="short" prefix=", "/>
       <substitute>
         <names variable="editor"/>
